@@ -1,0 +1,12 @@
+<?php
+$flowers=array('lotus'=>3,'Rose'=>5,'LIlly'=>10,'Sunflower'=>4);
+echo"<table border='3' bgcolor='red'>";
+echo"<tr> <th>flowername</th></tr>price</th>,</tr>";
+foreach($flowers as $flowers=>$price)
+{
+echo"<tr><td>$flowers</td><td>$price</th></tr>>";
+}
+echo"</table><br><br>";
+echo"<font color='red'><b>price of rose is $flowers[Rose]</b></font><br>";
+echo"<font color='green'><b>price of Lilly is $flowers[Lilly]</b></font>";
+?>

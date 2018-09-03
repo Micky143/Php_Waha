@@ -1,0 +1,7 @@
+	<?php
+	$letters = array('a','b','c');
+	foreach ($letters as $key => $value)
+		{  
+		print_r "array $key to $value"; 
+	}
+	?>

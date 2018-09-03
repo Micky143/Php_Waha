@@ -1,0 +1,13 @@
+/*<?php
+$name = 'Phil';
+$age  = 23;
+echo "$name is $age";
+Phil is 23 
+?>
+*/
+<?php
+$name = 'Phil';
+$age  = 23;
+echo '$name is $age';
+// $name is $age 
+?>
