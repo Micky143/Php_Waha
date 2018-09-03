@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+
+<html>
+<script type="text/javascript"> 
+      function nameinput() 
+      { 
+         x = document.forms["fnm"]["newinput"].value; 
+         document.forms["fnm"]["result"].value=x; 
+      } 
+</script>
+<center>
+<h1>My web page</h2>
+<body bgcolor="blue">
+<form action="/cgi-bin/html5.cgi" method="get" name="fnm">
+Enter value:<input type="text" name="newinput"/> 
+<input type ="button" value="show" onclick="nameinput();"/>
+<output name="result"/> 
+</center>
+</form>
+</body>
+</html>

@@ -1,0 +1,12 @@
+#div
+{
+	width:1000px;
+border-style:dotted;
+margin:5px;
+background-color:lightgrey;
+}
+#div2
+{
+	
+	border-style:dashed;
+}

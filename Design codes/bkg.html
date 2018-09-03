@@ -1,0 +1,21 @@
+<html> 
+     <head> 
+         <script type="text/javascript">
+         function changecolors() {    
+             var t = setInterval('change()',1000); 
+         } 
+
+         function change() {
+             var color = document.body.style.background;
+
+             if(color == "red") {
+                 document.body.style.background = "green";
+             } else {
+                 document.body.style.background = "red";
+             }
+         } 
+        </script>
+     </head> 
+     <body onload="javascript:changecolors()"> 
+     </body> 
+ </html>

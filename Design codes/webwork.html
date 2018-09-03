@@ -1,0 +1,16 @@
+<html>
+<script type="text/javascript">;
+var worker=new worker('bigloop.js');
+worker.onmessage=function(event)
+{
+alert("completed" + event.data + "iteration");
+};
+function sayhello()
+{
+alert("hello sir....");
+}
+</script>
+<body>
+<input type="button" onclick="sayhello()"; value="say hello"/>
+</body>
+</html>

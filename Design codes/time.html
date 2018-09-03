@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<SCRIPT TYPE="TEXT/JAVASCRIPT">
+function showresult()
+{
+x=document.forms["myform"]["newinput"].value;
+document.forms["myform"]["result"].value=x;
+}
+</script>
+<body>
+<form action="/cgi-bin/html5.cgi"method="get"name="myform">
+Time:<input type="Time" name="newinput"/>
+<input type="button" value="result" onclick="showresult();"/>
+<output name="Result"/>
+</form>
+</body>
+</html>

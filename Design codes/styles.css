@@ -1,0 +1,33 @@
+ol.above{
+	
+	list-style:circle;
+	align:center;
+}
+
+
+p
+{
+color:red;
+text-align:center;
+text-shadow:10px 4px #ff0000;
+font-size:100px;
+text-decoration:underline;
+}
+h1
+{
+text-align:center;	
+	color:blue;
+	font-style:italic;
+	font:italic bold 12px/30px georgia,serif;
+}
+h2
+{
+		font:15px arial, sans-serif;
+	text-align:center;
+	color:blue;
+}
+body
+{
+	text-align:center;
+	background-color:yellow;
+}
